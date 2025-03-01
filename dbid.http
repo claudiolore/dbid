@@ -1,0 +1,6 @@
+@dbid_HostAddress = http://localhost:5299
+
+GET {{dbid_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
