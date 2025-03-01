@@ -59,6 +59,76 @@
             Ottiene gli edifici associati a un complesso
             </summary>
         </member>
+        <member name="M:Controllers.ComplessoController.AddStrutturaToComplesso(System.Guid,System.Guid)">
+            <summary>
+            Associa una struttura a un complesso
+            </summary>
+        </member>
+        <member name="M:Controllers.ComplessoController.RemoveStrutturaFromComplesso(System.Guid,System.Guid)">
+            <summary>
+            Rimuove l'associazione di una struttura da un complesso
+            </summary>
+        </member>
+        <member name="M:Controllers.ComplessoController.AddIdraulicoAdduzioneToComplesso(System.Guid,System.Guid)">
+            <summary>
+            Associa un impianto idraulico di adduzione a un complesso
+            </summary>
+        </member>
+        <member name="M:Controllers.ComplessoController.RemoveIdraulicoAdduzioneFromComplesso(System.Guid,System.Guid)">
+            <summary>
+            Rimuove l'associazione di un impianto idraulico di adduzione da un complesso
+            </summary>
+        </member>
+        <member name="M:Controllers.ComplessoController.AddScarichiIdriciFognariToComplesso(System.Guid,System.Guid)">
+            <summary>
+            Associa un impianto di scarichi idrici e fognari a un complesso
+            </summary>
+        </member>
+        <member name="M:Controllers.ComplessoController.RemoveScarichiIdriciFognariFromComplesso(System.Guid,System.Guid)">
+            <summary>
+            Rimuove l'associazione di un impianto di scarichi idrici e fognari da un complesso
+            </summary>
+        </member>
+        <member name="M:Controllers.ComplessoController.AddImpiantiElettriciToComplesso(System.Guid,System.Guid)">
+            <summary>
+            Associa un impianto elettrico a un complesso
+            </summary>
+        </member>
+        <member name="M:Controllers.ComplessoController.RemoveImpiantiElettriciFromComplesso(System.Guid,System.Guid)">
+            <summary>
+            Rimuove l'associazione di un impianto elettrico da un complesso
+            </summary>
+        </member>
+        <member name="M:Controllers.ComplessoController.AddImpiantoClimaAcsToComplesso(System.Guid,System.Guid)">
+            <summary>
+            Associa un impianto di climatizzazione e ACS a un complesso
+            </summary>
+        </member>
+        <member name="M:Controllers.ComplessoController.RemoveImpiantoClimaAcsFromComplesso(System.Guid,System.Guid)">
+            <summary>
+            Rimuove l'associazione di un impianto di climatizzazione e ACS da un complesso
+            </summary>
+        </member>
+        <member name="M:Controllers.ComplessoController.AddAltriImpiantiToComplesso(System.Guid,System.Guid)">
+            <summary>
+            Associa un altro impianto a un complesso
+            </summary>
+        </member>
+        <member name="M:Controllers.ComplessoController.RemoveAltriImpiantiFromComplesso(System.Guid,System.Guid)">
+            <summary>
+            Rimuove l'associazione di un altro impianto da un complesso
+            </summary>
+        </member>
+        <member name="M:Controllers.ComplessoController.AddDocumentiGeneraliToComplesso(System.Guid,System.Guid)">
+            <summary>
+            Associa un documento generale a un complesso
+            </summary>
+        </member>
+        <member name="M:Controllers.ComplessoController.RemoveDocumentiGeneraliFromComplesso(System.Guid,System.Guid)">
+            <summary>
+            Rimuove l'associazione di un documento generale da un complesso
+            </summary>
+        </member>
         <member name="M:Controllers.DocumentiGeneraliController.GetAll">
             <summary>
             Ottiene tutti i documenti generali
@@ -112,6 +182,86 @@
         <member name="M:Controllers.EdificioController.GetUnitaImmobiliariByEdificioId(System.Guid)">
             <summary>
             Ottiene le unità immobiliari associate a un edificio
+            </summary>
+        </member>
+        <member name="M:Controllers.EdificioController.AddStrutturaToEdificio(System.Guid,System.Guid)">
+            <summary>
+            Associa una struttura a un edificio
+            </summary>
+        </member>
+        <member name="M:Controllers.EdificioController.RemoveStrutturaFromEdificio(System.Guid,System.Guid)">
+            <summary>
+            Rimuove l'associazione di una struttura da un edificio
+            </summary>
+        </member>
+        <member name="M:Controllers.EdificioController.AddInfissiToEdificio(System.Guid,System.Guid)">
+            <summary>
+            Associa un infisso a un edificio
+            </summary>
+        </member>
+        <member name="M:Controllers.EdificioController.RemoveInfissiFromEdificio(System.Guid,System.Guid)">
+            <summary>
+            Rimuove l'associazione di un infisso da un edificio
+            </summary>
+        </member>
+        <member name="M:Controllers.EdificioController.AddIdraulicoAdduzioneToEdificio(System.Guid,System.Guid)">
+            <summary>
+            Associa un impianto idraulico di adduzione a un edificio
+            </summary>
+        </member>
+        <member name="M:Controllers.EdificioController.RemoveIdraulicoAdduzioneFromEdificio(System.Guid,System.Guid)">
+            <summary>
+            Rimuove l'associazione di un impianto idraulico di adduzione da un edificio
+            </summary>
+        </member>
+        <member name="M:Controllers.EdificioController.AddScarichiIdriciFognariToEdificio(System.Guid,System.Guid)">
+            <summary>
+            Associa un impianto di scarichi idrici e fognari a un edificio
+            </summary>
+        </member>
+        <member name="M:Controllers.EdificioController.RemoveScarichiIdriciFognariFromEdificio(System.Guid,System.Guid)">
+            <summary>
+            Rimuove l'associazione di un impianto di scarichi idrici e fognari da un edificio
+            </summary>
+        </member>
+        <member name="M:Controllers.EdificioController.AddImpiantiElettriciToEdificio(System.Guid,System.Guid)">
+            <summary>
+            Associa un impianto elettrico a un edificio
+            </summary>
+        </member>
+        <member name="M:Controllers.EdificioController.RemoveImpiantiElettriciFromEdificio(System.Guid,System.Guid)">
+            <summary>
+            Rimuove l'associazione di un impianto elettrico da un edificio
+            </summary>
+        </member>
+        <member name="M:Controllers.EdificioController.AddImpiantoClimaAcsToEdificio(System.Guid,System.Guid)">
+            <summary>
+            Associa un impianto clima e acs a un edificio
+            </summary>
+        </member>
+        <member name="M:Controllers.EdificioController.RemoveImpiantoClimaAcsFromEdificio(System.Guid,System.Guid)">
+            <summary>
+            Rimuove l'associazione di un impianto clima e acs da un edificio
+            </summary>
+        </member>
+        <member name="M:Controllers.EdificioController.AddAltriImpiantiToEdificio(System.Guid,System.Guid)">
+            <summary>
+            Associa un altro impianto a un edificio
+            </summary>
+        </member>
+        <member name="M:Controllers.EdificioController.RemoveAltriImpiantiFromEdificio(System.Guid,System.Guid)">
+            <summary>
+            Rimuove l'associazione di un altro impianto da un edificio
+            </summary>
+        </member>
+        <member name="M:Controllers.EdificioController.AddDocumentiGeneraliToEdificio(System.Guid,System.Guid)">
+            <summary>
+            Associa un documento generale a un edificio
+            </summary>
+        </member>
+        <member name="M:Controllers.EdificioController.RemoveDocumentiGeneraliFromEdificio(System.Guid,System.Guid)">
+            <summary>
+            Rimuove l'associazione di un documento generale da un edificio
             </summary>
         </member>
         <member name="M:Controllers.IdraulicoAdduzioneController.GetAll">
@@ -322,6 +472,76 @@
         <member name="M:Controllers.UnitaImmobiliareController.Delete(System.Guid)">
             <summary>
             Elimina un'unità immobiliare
+            </summary>
+        </member>
+        <member name="M:Controllers.UnitaImmobiliareController.AddInfissiToUnitaImmobiliare(System.Guid,System.Guid)">
+            <summary>
+            Associa un infisso a un'unità immobiliare
+            </summary>
+        </member>
+        <member name="M:Controllers.UnitaImmobiliareController.RemoveInfissiFromUnitaImmobiliare(System.Guid,System.Guid)">
+            <summary>
+            Rimuove l'associazione di un infisso da un'unità immobiliare
+            </summary>
+        </member>
+        <member name="M:Controllers.UnitaImmobiliareController.AddIdraulicoAdduzioneToUnitaImmobiliare(System.Guid,System.Guid)">
+            <summary>
+            Associa un impianto idraulico di adduzione a un'unità immobiliare
+            </summary>
+        </member>
+        <member name="M:Controllers.UnitaImmobiliareController.RemoveIdraulicoAdduzioneFromUnitaImmobiliare(System.Guid,System.Guid)">
+            <summary>
+            Rimuove l'associazione di un impianto idraulico di adduzione da un'unità immobiliare
+            </summary>
+        </member>
+        <member name="M:Controllers.UnitaImmobiliareController.AddScarichiIdriciFognariToUnitaImmobiliare(System.Guid,System.Guid)">
+            <summary>
+            Associa un impianto di scarichi idrici e fognari a un'unità immobiliare
+            </summary>
+        </member>
+        <member name="M:Controllers.UnitaImmobiliareController.RemoveScarichiIdriciFognariFromUnitaImmobiliare(System.Guid,System.Guid)">
+            <summary>
+            Rimuove l'associazione di un impianto di scarichi idrici e fognari da un'unità immobiliare
+            </summary>
+        </member>
+        <member name="M:Controllers.UnitaImmobiliareController.AddImpiantiElettriciToUnitaImmobiliare(System.Guid,System.Guid)">
+            <summary>
+            Associa un impianto elettrico a un'unità immobiliare
+            </summary>
+        </member>
+        <member name="M:Controllers.UnitaImmobiliareController.RemoveImpiantiElettriciFromUnitaImmobiliare(System.Guid,System.Guid)">
+            <summary>
+            Rimuove l'associazione di un impianto elettrico da un'unità immobiliare
+            </summary>
+        </member>
+        <member name="M:Controllers.UnitaImmobiliareController.AddImpiantoClimaAcsToUnitaImmobiliare(System.Guid,System.Guid)">
+            <summary>
+            Associa un impianto clima e acs a un'unità immobiliare
+            </summary>
+        </member>
+        <member name="M:Controllers.UnitaImmobiliareController.RemoveImpiantoClimaAcsFromUnitaImmobiliare(System.Guid,System.Guid)">
+            <summary>
+            Rimuove l'associazione di un impianto clima e acs da un'unità immobiliare
+            </summary>
+        </member>
+        <member name="M:Controllers.UnitaImmobiliareController.AddAltriImpiantiToUnitaImmobiliare(System.Guid,System.Guid)">
+            <summary>
+            Associa un altro impianto a un'unità immobiliare
+            </summary>
+        </member>
+        <member name="M:Controllers.UnitaImmobiliareController.RemoveAltriImpiantiFromUnitaImmobiliare(System.Guid,System.Guid)">
+            <summary>
+            Rimuove l'associazione di un altro impianto da un'unità immobiliare
+            </summary>
+        </member>
+        <member name="M:Controllers.UnitaImmobiliareController.AddDocumentiGeneraliToUnitaImmobiliare(System.Guid,System.Guid)">
+            <summary>
+            Associa un documento generale a un'unità immobiliare
+            </summary>
+        </member>
+        <member name="M:Controllers.UnitaImmobiliareController.RemoveDocumentiGeneraliFromUnitaImmobiliare(System.Guid,System.Guid)">
+            <summary>
+            Rimuove l'associazione di un documento generale da un'unità immobiliare
             </summary>
         </member>
         <member name="T:dbid.Migrations.InitialCreate">
