@@ -568,5 +568,29 @@
         <member name="M:dbid.Migrations.InitialCreatea.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
+        <member name="T:dbid.Migrations.NomeMigrazione">
+            <inheritdoc />
+        </member>
+        <member name="M:dbid.Migrations.NomeMigrazione.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:dbid.Migrations.NomeMigrazione.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:dbid.Migrations.NomeMigrazione.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:dbid.Migrations.NomeMigrazione2">
+            <inheritdoc />
+        </member>
+        <member name="M:dbid.Migrations.NomeMigrazione2.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:dbid.Migrations.NomeMigrazione2.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:dbid.Migrations.NomeMigrazione2.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
     </members>
 </doc>
