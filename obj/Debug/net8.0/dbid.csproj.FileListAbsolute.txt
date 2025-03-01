@@ -106,3 +106,5 @@ C:\Users\Claudio\source\repos\dbid\dbid\obj\Debug\net8.0\refint\dbid.dll
 C:\Users\Claudio\source\repos\dbid\dbid\obj\Debug\net8.0\dbid.pdb
 C:\Users\Claudio\source\repos\dbid\dbid\obj\Debug\net8.0\dbid.genruntimeconfig.cache
 C:\Users\Claudio\source\repos\dbid\dbid\obj\Debug\net8.0\ref\dbid.dll
+C:\Users\Claudio\source\repos\dbid\dbid\bin\Debug\net8.0\dbid.xml
+C:\Users\Claudio\source\repos\dbid\dbid\obj\Debug\net8.0\dbid.xml

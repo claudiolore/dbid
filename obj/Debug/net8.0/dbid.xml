@@ -1,0 +1,352 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>dbid</name>
+    </assembly>
+    <members>
+        <member name="M:Controllers.AltriImpiantiController.GetAll">
+            <summary>
+            Ottiene tutti gli altri impianti
+            </summary>
+        </member>
+        <member name="M:Controllers.AltriImpiantiController.GetById(System.Guid)">
+            <summary>
+            Ottiene un altro impianto specifico tramite ID
+            </summary>
+        </member>
+        <member name="M:Controllers.AltriImpiantiController.Create(Models.AltriImpianti)">
+            <summary>
+            Crea un nuovo altro impianto
+            </summary>
+        </member>
+        <member name="M:Controllers.AltriImpiantiController.Update(System.Guid,Models.AltriImpianti)">
+            <summary>
+            Aggiorna un altro impianto esistente
+            </summary>
+        </member>
+        <member name="M:Controllers.AltriImpiantiController.Delete(System.Guid)">
+            <summary>
+            Elimina un altro impianto
+            </summary>
+        </member>
+        <member name="M:Controllers.ComplessoController.GetAll">
+            <summary>
+            Ottiene tutti i complessi
+            </summary>
+        </member>
+        <member name="M:Controllers.ComplessoController.GetById(System.Guid)">
+            <summary>
+            Ottiene un complesso specifico tramite ID
+            </summary>
+        </member>
+        <member name="M:Controllers.ComplessoController.Create(Models.Complesso)">
+            <summary>
+            Crea un nuovo complesso
+            </summary>
+        </member>
+        <member name="M:Controllers.ComplessoController.Update(System.Guid,Models.Complesso)">
+            <summary>
+            Aggiorna un complesso esistente
+            </summary>
+        </member>
+        <member name="M:Controllers.ComplessoController.Delete(System.Guid)">
+            <summary>
+            Elimina un complesso
+            </summary>
+        </member>
+        <member name="M:Controllers.ComplessoController.GetEdificiByComplessoId(System.Guid)">
+            <summary>
+            Ottiene gli edifici associati a un complesso
+            </summary>
+        </member>
+        <member name="M:Controllers.DocumentiGeneraliController.GetAll">
+            <summary>
+            Ottiene tutti i documenti generali
+            </summary>
+        </member>
+        <member name="M:Controllers.DocumentiGeneraliController.GetById(System.Guid)">
+            <summary>
+            Ottiene un documento generale specifico tramite ID
+            </summary>
+        </member>
+        <member name="M:Controllers.DocumentiGeneraliController.Create(Models.DocumentiGenerali)">
+            <summary>
+            Crea un nuovo documento generale
+            </summary>
+        </member>
+        <member name="M:Controllers.DocumentiGeneraliController.Update(System.Guid,Models.DocumentiGenerali)">
+            <summary>
+            Aggiorna un documento generale esistente
+            </summary>
+        </member>
+        <member name="M:Controllers.DocumentiGeneraliController.Delete(System.Guid)">
+            <summary>
+            Elimina un documento generale
+            </summary>
+        </member>
+        <member name="M:Controllers.EdificioController.GetAll">
+            <summary>
+            Ottiene tutti gli edifici
+            </summary>
+        </member>
+        <member name="M:Controllers.EdificioController.GetById(System.Guid)">
+            <summary>
+            Ottiene un edificio specifico tramite ID
+            </summary>
+        </member>
+        <member name="M:Controllers.EdificioController.Create(Models.Edificio)">
+            <summary>
+            Crea un nuovo edificio
+            </summary>
+        </member>
+        <member name="M:Controllers.EdificioController.Update(System.Guid,Models.Edificio)">
+            <summary>
+            Aggiorna un edificio esistente
+            </summary>
+        </member>
+        <member name="M:Controllers.EdificioController.Delete(System.Guid)">
+            <summary>
+            Elimina un edificio
+            </summary>
+        </member>
+        <member name="M:Controllers.EdificioController.GetUnitaImmobiliariByEdificioId(System.Guid)">
+            <summary>
+            Ottiene le unità immobiliari associate a un edificio
+            </summary>
+        </member>
+        <member name="M:Controllers.IdraulicoAdduzioneController.GetAll">
+            <summary>
+            Ottiene tutti gli impianti idraulici di adduzione
+            </summary>
+        </member>
+        <member name="M:Controllers.IdraulicoAdduzioneController.GetById(System.Guid)">
+            <summary>
+            Ottiene un impianto idraulico di adduzione specifico tramite ID
+            </summary>
+        </member>
+        <member name="M:Controllers.IdraulicoAdduzioneController.Create(Models.IdraulicoAdduzione)">
+            <summary>
+            Crea un nuovo impianto idraulico di adduzione
+            </summary>
+        </member>
+        <member name="M:Controllers.IdraulicoAdduzioneController.Update(System.Guid,Models.IdraulicoAdduzione)">
+            <summary>
+            Aggiorna un impianto idraulico di adduzione esistente
+            </summary>
+        </member>
+        <member name="M:Controllers.IdraulicoAdduzioneController.Delete(System.Guid)">
+            <summary>
+            Elimina un impianto idraulico di adduzione
+            </summary>
+        </member>
+        <member name="M:Controllers.ImpiantiElettriciController.GetAll">
+            <summary>
+            Ottiene tutti gli impianti elettrici
+            </summary>
+        </member>
+        <member name="M:Controllers.ImpiantiElettriciController.GetById(System.Guid)">
+            <summary>
+            Ottiene un impianto elettrico specifico tramite ID
+            </summary>
+        </member>
+        <member name="M:Controllers.ImpiantiElettriciController.Create(Models.ImpiantiElettrici)">
+            <summary>
+            Crea un nuovo impianto elettrico
+            </summary>
+        </member>
+        <member name="M:Controllers.ImpiantiElettriciController.Update(System.Guid,Models.ImpiantiElettrici)">
+            <summary>
+            Aggiorna un impianto elettrico esistente
+            </summary>
+        </member>
+        <member name="M:Controllers.ImpiantiElettriciController.Delete(System.Guid)">
+            <summary>
+            Elimina un impianto elettrico
+            </summary>
+        </member>
+        <member name="M:Controllers.ImpiantoClimaAcsController.GetAll">
+            <summary>
+            Ottiene tutti gli impianti di climatizzazione e ACS
+            </summary>
+        </member>
+        <member name="M:Controllers.ImpiantoClimaAcsController.GetById(System.Guid)">
+            <summary>
+            Ottiene un impianto di climatizzazione e ACS specifico tramite ID
+            </summary>
+        </member>
+        <member name="M:Controllers.ImpiantoClimaAcsController.Create(Models.ImpiantoClimaAcs)">
+            <summary>
+            Crea un nuovo impianto di climatizzazione e ACS
+            </summary>
+        </member>
+        <member name="M:Controllers.ImpiantoClimaAcsController.Update(System.Guid,Models.ImpiantoClimaAcs)">
+            <summary>
+            Aggiorna un impianto di climatizzazione e ACS esistente
+            </summary>
+        </member>
+        <member name="M:Controllers.ImpiantoClimaAcsController.Delete(System.Guid)">
+            <summary>
+            Elimina un impianto di climatizzazione e ACS
+            </summary>
+        </member>
+        <member name="M:Controllers.InfissiController.GetAll">
+            <summary>
+            Ottiene tutti gli infissi
+            </summary>
+        </member>
+        <member name="M:Controllers.InfissiController.GetById(System.Guid)">
+            <summary>
+            Ottiene un infisso specifico tramite ID
+            </summary>
+        </member>
+        <member name="M:Controllers.InfissiController.Create(Models.Infissi)">
+            <summary>
+            Crea un nuovo infisso
+            </summary>
+        </member>
+        <member name="M:Controllers.InfissiController.Update(System.Guid,Models.Infissi)">
+            <summary>
+            Aggiorna un infisso esistente
+            </summary>
+        </member>
+        <member name="M:Controllers.InfissiController.Delete(System.Guid)">
+            <summary>
+            Elimina un infisso
+            </summary>
+        </member>
+        <member name="M:Controllers.ScarichiIdriciFognariController.GetAll">
+            <summary>
+            Ottiene tutti gli scarichi idrici e fognari
+            </summary>
+        </member>
+        <member name="M:Controllers.ScarichiIdriciFognariController.GetById(System.Guid)">
+            <summary>
+            Ottiene uno scarico idrico e fognario specifico tramite ID
+            </summary>
+        </member>
+        <member name="M:Controllers.ScarichiIdriciFognariController.Create(Models.ScarichiIdriciFognari)">
+            <summary>
+            Crea un nuovo scarico idrico e fognario
+            </summary>
+        </member>
+        <member name="M:Controllers.ScarichiIdriciFognariController.Update(System.Guid,Models.ScarichiIdriciFognari)">
+            <summary>
+            Aggiorna uno scarico idrico e fognario esistente
+            </summary>
+        </member>
+        <member name="M:Controllers.ScarichiIdriciFognariController.Delete(System.Guid)">
+            <summary>
+            Elimina uno scarico idrico e fognario
+            </summary>
+        </member>
+        <member name="M:Controllers.SegnalazioneProblemaController.GetAll">
+            <summary>
+            Ottiene tutte le segnalazioni di problemi
+            </summary>
+        </member>
+        <member name="M:Controllers.SegnalazioneProblemaController.GetById(System.Guid)">
+            <summary>
+            Ottiene una segnalazione problema specifica tramite ID
+            </summary>
+        </member>
+        <member name="M:Controllers.SegnalazioneProblemaController.GetByStrutturaId(System.Guid)">
+            <summary>
+            Ottiene le segnalazioni relative a una struttura
+            </summary>
+        </member>
+        <member name="M:Controllers.SegnalazioneProblemaController.Create(Models.SegnalazioneProblema)">
+            <summary>
+            Crea una nuova segnalazione problema
+            </summary>
+        </member>
+        <member name="M:Controllers.SegnalazioneProblemaController.Update(System.Guid,Models.SegnalazioneProblema)">
+            <summary>
+            Aggiorna una segnalazione problema esistente
+            </summary>
+        </member>
+        <member name="M:Controllers.SegnalazioneProblemaController.Delete(System.Guid)">
+            <summary>
+            Elimina una segnalazione problema
+            </summary>
+        </member>
+        <member name="M:Controllers.StruttureController.GetAll">
+            <summary>
+            Ottiene tutte le strutture
+            </summary>
+        </member>
+        <member name="M:Controllers.StruttureController.GetById(System.Guid)">
+            <summary>
+            Ottiene una struttura specifica tramite ID
+            </summary>
+        </member>
+        <member name="M:Controllers.StruttureController.Create(Models.Strutture)">
+            <summary>
+            Crea una nuova struttura
+            </summary>
+        </member>
+        <member name="M:Controllers.StruttureController.Update(System.Guid,Models.Strutture)">
+            <summary>
+            Aggiorna una struttura esistente
+            </summary>
+        </member>
+        <member name="M:Controllers.StruttureController.Delete(System.Guid)">
+            <summary>
+            Elimina una struttura
+            </summary>
+        </member>
+        <member name="M:Controllers.StruttureController.GetSegnalazioniByStrutturaId(System.Guid)">
+            <summary>
+            Ottiene le segnalazioni di problemi associate a una struttura
+            </summary>
+        </member>
+        <member name="M:Controllers.UnitaImmobiliareController.GetAll">
+            <summary>
+            Ottiene tutte le unità immobiliari
+            </summary>
+        </member>
+        <member name="M:Controllers.UnitaImmobiliareController.GetById(System.Guid)">
+            <summary>
+            Ottiene un'unità immobiliare specifica tramite ID
+            </summary>
+        </member>
+        <member name="M:Controllers.UnitaImmobiliareController.Create(Models.UnitaImmobiliare)">
+            <summary>
+            Crea una nuova unità immobiliare
+            </summary>
+        </member>
+        <member name="M:Controllers.UnitaImmobiliareController.Update(System.Guid,Models.UnitaImmobiliare)">
+            <summary>
+            Aggiorna un'unità immobiliare esistente
+            </summary>
+        </member>
+        <member name="M:Controllers.UnitaImmobiliareController.Delete(System.Guid)">
+            <summary>
+            Elimina un'unità immobiliare
+            </summary>
+        </member>
+        <member name="T:dbid.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:dbid.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:dbid.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:dbid.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:dbid.Migrations.InitialCreatea">
+            <inheritdoc />
+        </member>
+        <member name="M:dbid.Migrations.InitialCreatea.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:dbid.Migrations.InitialCreatea.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:dbid.Migrations.InitialCreatea.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
