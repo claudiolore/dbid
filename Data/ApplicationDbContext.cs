@@ -25,6 +25,10 @@ namespace Data
         public DbSet<DocumentiGenerali> DocumentiGenerali { get; set; }
         public DbSet<SegnalazioneProblema> SegnalazioneProblema { get; set; }
 
+        // Entità per la sincronizzazione
+        public DbSet<SyncRecord> SyncRecords { get; set; }
+        public DbSet<FileRecord> FileRecords { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -187,6 +191,13 @@ namespace Data
                 .WithOne()
                 .HasForeignKey("StruttureId")
                 .OnDelete(DeleteBehavior.Cascade);
+
+            // Configurazione delle entità per la sincronizzazione
+            modelBuilder.Entity<SyncRecord>()
+                .HasKey(s => s.Id);
+
+            modelBuilder.Entity<FileRecord>()
+                .HasKey(f => f.Id);
         }
     }
 }
