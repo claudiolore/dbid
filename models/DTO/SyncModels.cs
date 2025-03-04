@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace Models.DTO
 {
@@ -15,13 +16,28 @@ namespace Models.DTO
     {
         public List<ComplessoDTO> Complessi { get; set; } = new List<ComplessoDTO>();
         public List<EdificioDTO> Edifici { get; set; } = new List<EdificioDTO>();
+
+        [JsonPropertyName("unita_immobiliari")]
         public List<UnitaImmobiliareDTO> UnitaImmobiliari { get; set; } = new List<UnitaImmobiliareDTO>();
+
+        [JsonPropertyName("strutture")]
         public List<StruttureDTO> Strutture { get; set; } = new List<StruttureDTO>();
+
+        [JsonPropertyName("impianti_idrici")]
         public List<ImpiantoIdricoDTO> ImpiantiIdrici { get; set; } = new List<ImpiantoIdricoDTO>();
+
+        [JsonPropertyName("impianti_scarichi")]
         public List<ImpiantoScarichiDTO> ImpiantiScarichi { get; set; } = new List<ImpiantoScarichiDTO>();
+
+        [JsonPropertyName("impianti_clima_acs")]
         public List<ImpiantoClimaAcsDTO> ImpiantiClimaAcs { get; set; } = new List<ImpiantoClimaAcsDTO>();
+
+        [JsonPropertyName("impianti_elettrici")]
         public List<ImpiantoElettricoDTO> ImpiantiElettrici { get; set; } = new List<ImpiantoElettricoDTO>();
+
+        [JsonPropertyName("altri_impianti")]
         public List<AltroImpiantoDTO> AltriImpianti { get; set; } = new List<AltroImpiantoDTO>();
+
         public List<InfissoDTO> Infissi { get; set; } = new List<InfissoDTO>();
         public List<DocumentoDTO> Documenti { get; set; } = new List<DocumentoDTO>();
         public Dictionary<string, object> Enums { get; set; } = new Dictionary<string, object>();

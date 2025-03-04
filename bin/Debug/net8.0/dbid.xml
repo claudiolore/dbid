@@ -449,6 +449,34 @@
             Ottiene le segnalazioni di problemi associate a una struttura
             </summary>
         </member>
+        <member name="M:Controllers.SyncController.SyncData(System.Object)">
+            <summary>
+            Endpoint principale per ricevere tutti i dati dall'app mobile.
+            </summary>
+            <param name="request">I dati da sincronizzare</param>
+            <returns>Statistiche di sincronizzazione</returns>
+        </member>
+        <member name="M:Controllers.SyncController.GetSyncStatus(System.String)">
+            <summary>
+            Endpoint per verificare lo stato di sincronizzazione e l'ultima sincronizzazione effettuata.
+            </summary>
+            <param name="deviceId">ID del dispositivo</param>
+            <returns>Stato di sincronizzazione</returns>
+        </member>
+        <member name="M:Controllers.FilesController.UploadFile(Models.DTO.FileUploadRequest)">
+            <summary>
+            Endpoint per caricare i file associati (foto, documenti, ecc).
+            </summary>
+            <param name="request">Dati del file da caricare</param>
+            <returns>Risultato del caricamento</returns>
+        </member>
+        <member name="M:Controllers.FilesController.CompleteSyncFiles(Models.DTO.SyncFilesCompleteRequest)">
+            <summary>
+            Endpoint per notificare il completamento della sincronizzazione dei file.
+            </summary>
+            <param name="request">Dati sulla sincronizzazione completata</param>
+            <returns>Stato di completamento</returns>
+        </member>
         <member name="M:Controllers.UnitaImmobiliareController.GetAll">
             <summary>
             Ottiene tutte le unità immobiliari
