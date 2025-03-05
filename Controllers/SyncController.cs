@@ -10,7 +10,7 @@ namespace Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    [Authorize] // Assicura che tutte le richieste siano autenticate
+    //[Authorize] // Assicura che tutte le richieste siano autenticate
     public class SyncController : ControllerBase
     {
         private readonly ISyncService _syncService;

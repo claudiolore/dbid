@@ -138,18 +138,18 @@ namespace Models.DTO
         public string DestinazioneUso { get; set; }
         public List<string> FotoGenerali { get; set; } = new List<string>();
         public string Note { get; set; }
-        public string ElaboratoPlanimetrico { get; set; }
-        public string AerofotografiaCartografiaStorica { get; set; }
-        public string EstrattoMappaCatastale { get; set; }
-        public string PianiUrbanistici { get; set; }
-        public string RelazioneGeotecnica { get; set; }
+        public string? ElaboratoPlanimetrico { get; set; }
+        public string? AerofotografiaCartografiaStorica { get; set; }
+        public string? EstrattoMappaCatastale { get; set; }
+        public string? PianiUrbanistici { get; set; }
+        public string? RelazioneGeotecnica { get; set; }
         public string CategorieUsoNTC2018 { get; set; }
-        public string DocumentoValutazioneRischi { get; set; }
-        public string DichiarazioneInteresseArtistico { get; set; }
-        public string IstanzaAccertamentoSussistenza { get; set; }
-        public string SegnalazioneCertificataAgibilita { get; set; }
-        public string ProgettoUltimoIntervento { get; set; }
-        public string TitoloProprieta { get; set; }
+        public string? DocumentoValutazioneRischi { get; set; }
+        public string? DichiarazioneInteresseArtistico { get; set; }
+        public string? IstanzaAccertamentoSussistenza { get; set; }
+        public string? SegnalazioneCertificataAgibilita { get; set; }
+        public string? ProgettoUltimoIntervento { get; set; }
+        public string? TitoloProprieta { get; set; }
         public List<string> Edifici { get; set; } = new List<string>();
         public List<string> Strutture { get; set; } = new List<string>();
         public List<string> ImpiantiIdriciAdduzione { get; set; } = new List<string>();
@@ -162,16 +162,16 @@ namespace Models.DTO
     public class EdificioDTO
     {
         public string Id { get; set; } // Formato: E-xxxxx (GUID)
-        public string ParentId { get; set; }
-        public string ParentType { get; set; } // "complesso"
+        public string? ParentId { get; set; }
+        public string? ParentType { get; set; } // "complesso"
         // Altri campi specifici dell'edificio
     }
 
     public class UnitaImmobiliareDTO
     {
         public string Id { get; set; } // Formato: UI-xxxxx (GUID)
-        public string ParentId { get; set; }
-        public string ParentType { get; set; } // "edificio"
+        public string? ParentId { get; set; }
+        public string? ParentType { get; set; } // "edificio"
         // Altri campi specifici dell'unità immobiliare
     }
 
