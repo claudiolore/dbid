@@ -28,16 +28,44 @@ namespace Controllers
         /// <param name="request">I dati da sincronizzare</param>
         /// <returns>Statistiche di sincronizzazione</returns>
         [HttpPost("data")]
+        [ApiExplorerSettings(IgnoreApi = false)]
+        // Disabilitiamo la validazione automatica del modello
         public async Task<IActionResult> SyncData([FromBody] SyncRequest request)
         {
-            if (request == null || request.Data == null)
+            // Controllo base sulla presenza dei dati
+            if (request == null)
             {
-                return BadRequest("I dati di sincronizzazione sono obbligatori");
+                return BadRequest("La richiesta non può essere nulla");
+            }
+
+            // Inizializza le proprietà se sono nulle per evitare errori nel processing
+            if (request.Data == null)
+            {
+                request.Data = new SyncData();
+            }
+
+            if (request.DeviceInfo == null)
+            {
+                request.DeviceInfo = new DeviceInfo
+                {
+                    Platform = "unknown",
+                    Version = "unknown",
+                    DeviceId = Guid.NewGuid().ToString()
+                };
             }
 
             try
             {
-                _logger.LogInformation($"Ricevuta richiesta di sincronizzazione da {request.DeviceInfo?.Platform} v{request.DeviceInfo?.Version}");
+                _logger.LogInformation($"Ricevuta richiesta di sincronizzazione da {request.DeviceInfo?.Platform} v{request.DeviceInfo?.Version}, DeviceId: {request.DeviceInfo?.DeviceId}");
+
+                // Logga dettagli sulla quantità di dati ricevuti
+                _logger.LogInformation($"Dati ricevuti: " +
+                    $"Complessi: {request.Data.Complessi?.Count ?? 0}, " +
+                    $"Edifici: {request.Data.Edifici?.Count ?? 0}, " +
+                    $"UnitaImmobiliari: {request.Data.UnitaImmobiliari?.Count ?? 0}, " +
+                    $"Strutture: {request.Data.Strutture?.Count ?? 0}, " +
+                    $"ImpiantiIdrici: {request.Data.ImpiantiIdrici?.Count ?? 0}");
+
                 var result = await _syncService.SyncData(request);
                 return Ok(result);
             }
