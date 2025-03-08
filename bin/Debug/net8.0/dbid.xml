@@ -638,6 +638,18 @@
         <member name="M:dbid.Migrations.initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
+        <member name="T:dbid.Migrations.google">
+            <inheritdoc />
+        </member>
+        <member name="M:dbid.Migrations.google.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:dbid.Migrations.google.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:dbid.Migrations.google.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
         <member name="M:Services.IDatabaseManagementService.ResetDatabaseAsync">
             <summary>
             Elimina todos los datos de la base de datos
