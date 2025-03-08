@@ -63,3 +63,6 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+
+//    "DefaultConnection": "server=localhost;port=3306;database=dibid;user=root;password="

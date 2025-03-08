@@ -449,11 +449,11 @@
             Ottiene le segnalazioni di problemi associate a una struttura
             </summary>
         </member>
-        <member name="M:Controllers.SyncController.SyncData(System.Text.Json.JsonElement)">
+        <member name="M:Controllers.SyncController.SyncData(Models.DTO.SyncRequest)">
             <summary>
             Endpoint principale per ricevere tutti i dati dall'app mobile.
             </summary>
-            <param name="requestData">I dati da sincronizzare</param>
+            <param name="request">I dati da sincronizzare</param>
             <returns>Statistiche di sincronizzazione</returns>
         </member>
         <member name="M:Controllers.SyncController.GetSyncStatus(System.String)">
@@ -618,6 +618,18 @@
             <inheritdoc />
         </member>
         <member name="M:dbid.Migrations.NomeMigrazione2.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:dbid.Migrations.initial">
+            <inheritdoc />
+        </member>
+        <member name="M:dbid.Migrations.initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:dbid.Migrations.initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:dbid.Migrations.initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
     </members>
