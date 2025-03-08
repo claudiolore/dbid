@@ -50,6 +50,7 @@ builder.Services.AddScoped<IAltriImpiantiService, AltriImpiantiService>();
 builder.Services.AddScoped<IDocumentiGeneraliService, DocumentiGeneraliService>();
 builder.Services.AddScoped<ISegnalazioneProblemaService, SegnalazioneProblemaService>();
 builder.Services.AddScoped<ISyncService, SyncService>();
+builder.Services.AddScoped<IDatabaseManagementService, DatabaseManagementService>();
 
 var app = builder.Build();
 

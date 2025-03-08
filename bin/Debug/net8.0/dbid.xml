@@ -572,6 +572,12 @@
             Rimuove l'associazione di un documento generale da un'unità immobiliare
             </summary>
         </member>
+        <member name="M:dbid.Controllers.DatabaseManagementController.ResetDatabase">
+            <summary>
+            Elimina completamente todos los datos de la base de datos
+            </summary>
+            <returns>Resultado de la operación</returns>
+        </member>
         <member name="T:dbid.Migrations.InitialCreate">
             <inheritdoc />
         </member>
@@ -631,6 +637,12 @@
         </member>
         <member name="M:dbid.Migrations.initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
+        </member>
+        <member name="M:Services.IDatabaseManagementService.ResetDatabaseAsync">
+            <summary>
+            Elimina todos los datos de la base de datos
+            </summary>
+            <returns>True si la operación fue exitosa, False en caso contrario</returns>
         </member>
     </members>
 </doc>
