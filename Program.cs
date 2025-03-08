@@ -10,7 +10,6 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
@@ -66,3 +65,4 @@ app.Run();
 
 
 //    "DefaultConnection": "server=localhost;port=3306;database=dibid;user=root;password="
+//    "DefaultConnection": "server=34.22.206.114;port=3306;database=dibid;user=dibid;password=dibid"
