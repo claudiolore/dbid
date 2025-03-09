@@ -1,0 +1,88 @@
+# .NET Core build folders
+bin/
+obj/
+
+# Visual Studio / Visual Studio Code files
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.dbmdl
+*.jfm
+*.pfx
+*.publishsettings
+*.sln.docstates
+
+# IDE - JetBrains Rider
+.idea/
+*.sln.iml
+*.DotSettings.user
+
+# Visual Studio testing tools
+TestResults/
+[Tt]est[Rr]esult*/
+coverage*.json
+coverage*.xml
+coverage*.info
+
+# .NET Scaffolding
+ScaffoldingReadMe.txt
+
+# User-specific files
+*.rsuser
+
+# NuGet packages
+*.nupkg
+**/packages/*
+*.nuget.props
+*.nuget.targets
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Local configuration files
+appsettings.Development.json
+appsettings.*.json
+!appsettings.json
+
+# SQLite database files
+*.db
+*.db-shm
+*.db-wal
+
+# Sensitive data files
+*.rsa
+**/Properties/launchSettings.json
+
+# Miscellaneous
+*.swp
+*~
+*.bak
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker
+.dockerignore
+docker-compose.override.yml
